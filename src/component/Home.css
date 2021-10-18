@@ -1,0 +1,55 @@
+.body{
+    background-color: lightblue;
+}
+
+.selectOption{
+    border: none;
+    border-bottom: 2px solid red;
+    font-weight: bold;
+
+}
+.selectOption option {
+    font-weight: bold;
+}
+
+.myInput{
+    border: none;
+    border-bottom: 2px solid red;
+    font-weight: bold;
+}
+#lightBlue {
+    background-color: lightskyblue;
+}
+
+.cls{
+    padding: 5px;
+    margin: 5px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+#myBorder{
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+#radioBtn{
+    width: 30px;
+}
+#decr,#incr{
+    border: 1px solid black;
+    padding: 5px;
+}
+#counter{
+    width: 30px;
+    padding: 5px 40px;
+    border: 1px solid black;
+}
+
+
+.span{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+}

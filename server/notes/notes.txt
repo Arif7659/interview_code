@@ -1,0 +1,61 @@
+BigBasket Application (MEAN Stack / FullStack)
+---------------------
+client -> angular + Bootstrap
+server -> Express + MongoDB
+
+Server-Side configuration
+------------------------
+modules -> npm install express mongoose cors dotenv
+
+REST API
+--------
+1)
+Usage : GET All Products
+URL : http://127.0.0.1:5000/api/products/
+Params : no-fields
+Method : GET
+
+2)
+Usage : GET a single Product
+URL : http://127.0.0.1:5000/api/products/:product_id
+Params : no-fields
+Method : GET
+
+3)
+Usage : Create a Product
+URL : http://127.0.0.1:5000/api/products/
+Params : name , image , price , qty , info
+Method : POST
+
+4)
+Usage : Update a Product
+URL : http://127.0.0.1:5000/api/products/:product_id
+Params : name , image , price , qty , info
+Method : PUT
+
+5)
+Usage : Delete a Product
+URL : http://127.0.0.1:5000/api/products/:product_id
+Params : no-fields
+Method : DELETE
+
+Database Configuration
+-----------------------
+Database name : BigBasket-03-AGLR-MRNG
+table : product
+Fields : name , image , price , qty , info , created
+
+CREATE -> insertOne() -> save()
+READ   -> find() -> find() , findOne()
+UPDATE -> updateOne() -> findByIdAndUpdate()
+DELETE -> deleteOne() -> findByIdAndDelete()
+
+
+
+
+
+
+
+
+
+
